@@ -106,3 +106,4 @@ C:\Users\PC\cicd-demo\cicd-demo\MyApi.Tests\obj\Debug\net10.0\refint\MyApi.Tests
 C:\Users\PC\cicd-demo\cicd-demo\MyApi.Tests\obj\Debug\net10.0\MyApi.Tests.pdb
 C:\Users\PC\cicd-demo\cicd-demo\MyApi.Tests\obj\Debug\net10.0\MyApi.Tests.genruntimeconfig.cache
 C:\Users\PC\cicd-demo\cicd-demo\MyApi.Tests\obj\Debug\net10.0\ref\MyApi.Tests.dll
+C:\Users\PC\cicd-demo\cicd-demo\MyApi.Tests\obj\Debug\net10.0\MyApi.Tests.sourcelink.json

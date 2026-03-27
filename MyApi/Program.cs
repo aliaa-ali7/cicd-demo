@@ -13,6 +13,17 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapGet("/api/products", () =>
+{
+    var products = new[]
+    {
+        new { Id = 1, Name = "Laptop", Price = 999.99 },
+        new { Id = 2, Name = "Phone", Price = 499.99 },
+        new { Id = 3, Name = "Tablet", Price = 299.99 }
+    };
+    return Results.Ok(products);
+})
+.WithName("GetProducts");
 
 var summaries = new[]
 {
